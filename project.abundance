@@ -14,9 +14,8 @@
       "ioValue": 203
     },
     {
-      "name": "LegLength",
-      "ioValue": 300,
-      "currentEquation": "300"
+      "name": "TopHeight",
+      "ioValue": 450
     },
     {
       "name": "LegWidth",
@@ -61,54 +60,54 @@
       "x": 0.01815,
       "y": 0.46723325635103924,
       "uniqueID": "id-3784",
-      "name": "LegLength",
+      "name": "TopHeight",
       "type": "number"
     },
     {
       "atomType": "Rectangle",
-      "x": 0.16720604099244876,
-      "y": 0.3002309468822171,
+      "x": 0.15210355987055016,
+      "y": 0.4064665127020785,
       "uniqueID": "id-3787",
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 10
+          "ioValue": 450
         },
         {
           "name": "y length",
-          "ioValue": 10
+          "ioValue": 80
         }
       ]
     },
     {
       "atomType": "Rectangle",
-      "x": 0.16666666666666666,
-      "y": 0.4341801385681293,
+      "x": 0.15156418554476808,
+      "y": 0.5635103926096998,
       "uniqueID": "id-3791",
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 10
+          "ioValue": 450
         },
         {
           "name": "y length",
-          "ioValue": 10
+          "ioValue": 80
         }
       ]
     },
     {
       "atomType": "Rectangle",
-      "x": 0.16774541531823084,
-      "y": 0.5635103926096998,
+      "x": 0.15102481121898598,
+      "y": 0.697459584295612,
       "uniqueID": "id-3795",
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 10
+          "ioValue": 450
         },
         {
           "name": "y length",
-          "ioValue": 10
+          "ioValue": 80
         }
       ]
     },
@@ -135,9 +134,108 @@
       "uniqueID": "id-3805",
       "name": "LegAngle",
       "type": "number"
+    },
+    {
+      "atomType": "Rectangle",
+      "x": 0.2173678532901834,
+      "y": 0.14087759815242495,
+      "uniqueID": "id-3808",
+      "ioValues": [
+        {
+          "name": "x length",
+          "ioValue": 2438
+        },
+        {
+          "name": "y length",
+          "ioValue": 203
+        }
+      ]
+    },
+    {
+      "atomType": "Rectangle",
+      "x": 0.2184466019417476,
+      "y": 0.25635103926096997,
+      "uniqueID": "id-3812",
+      "ioValues": [
+        {
+          "name": "x length",
+          "ioValue": 2438
+        },
+        {
+          "name": "y length",
+          "ioValue": 203
+        }
+      ]
+    },
+    {
+      "atomType": "Rectangle",
+      "x": 0.2259978425026969,
+      "y": 0.8960739030023095,
+      "uniqueID": "id-3816",
+      "ioValues": [
+        {
+          "name": "x length",
+          "ioValue": 10
+        },
+        {
+          "name": "y length",
+          "ioValue": 10
+        }
+      ]
     }
   ],
-  "allConnectors": [],
+  "allConnectors": [
+    {
+      "ap2Name": "y length",
+      "ap1ID": "id-3782",
+      "ap2ID": "id-3808"
+    },
+    {
+      "ap2Name": "y length",
+      "ap1ID": "id-3782",
+      "ap2ID": "id-3812"
+    },
+    {
+      "ap2Name": "x length",
+      "ap1ID": "id-3784",
+      "ap2ID": "id-3787"
+    },
+    {
+      "ap2Name": "x length",
+      "ap1ID": "id-3784",
+      "ap2ID": "id-3791"
+    },
+    {
+      "ap2Name": "x length",
+      "ap1ID": "id-3784",
+      "ap2ID": "id-3795"
+    },
+    {
+      "ap2Name": "y length",
+      "ap1ID": "id-3799",
+      "ap2ID": "id-3787"
+    },
+    {
+      "ap2Name": "y length",
+      "ap1ID": "id-3799",
+      "ap2ID": "id-3791"
+    },
+    {
+      "ap2Name": "y length",
+      "ap1ID": "id-3799",
+      "ap2ID": "id-3795"
+    },
+    {
+      "ap2Name": "x length",
+      "ap1ID": "id-3802",
+      "ap2ID": "id-3808"
+    },
+    {
+      "ap2Name": "x length",
+      "ap1ID": "id-3802",
+      "ap2ID": "id-3812"
+    }
+  ],
   "unitsKey": "MM",
   "fileTypeVersion": 1,
   "filetypeVersion": 1
