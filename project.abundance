@@ -1,13 +1,118 @@
 {
-    "atomType": "Molecule",
-    "x": 0,
-    "y": 0,
-    "uniqueID": "id-3771",
-    "name": "Maslow4_Folding_Frame_Parts_Leg",
-    "topLevel": true,
-    "allAtoms": [],
-    "allConnectors": [],
-    "unitsKey": "MM",
-    "fileTypeVersion": 1,
-    "filetypeVersion": 1
+  "atomType": "Molecule",
+  "x": 0,
+  "y": 0,
+  "uniqueID": "id-3771",
+  "name": "Maslow4_Folding_Frame_Parts_Leg",
+  "ioValues": [
+    {
+      "name": "WoodThick",
+      "ioValue": 10
+    },
+    {
+      "name": "BeamHeight",
+      "ioValue": 10
+    },
+    {
+      "name": "LegLength",
+      "ioValue": 10
+    },
+    {
+      "name": "BeamLength",
+      "ioValue": 10
+    }
+  ],
+  "topLevel": true,
+  "allAtoms": [
+    {
+      "atomType": "Output",
+      "x": 0.98,
+      "y": 0.5,
+      "uniqueID": "id-3772"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.01815,
+      "y": 0.26923325635103923,
+      "uniqueID": "id-3777",
+      "name": "WoodThick",
+      "type": "number"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.01815,
+      "y": 0.33523325635103923,
+      "uniqueID": "id-3779",
+      "name": "BeamLength",
+      "type": "number"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.01815,
+      "y": 0.40123325635103924,
+      "uniqueID": "id-3782",
+      "name": "BeamHeight",
+      "type": "number"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.01815,
+      "y": 0.46723325635103924,
+      "uniqueID": "id-3784",
+      "name": "LegLength",
+      "type": "number"
+    },
+    {
+      "atomType": "Rectangle",
+      "x": 0.16720604099244876,
+      "y": 0.3002309468822171,
+      "uniqueID": "id-3787",
+      "ioValues": [
+        {
+          "name": "x length",
+          "ioValue": 10
+        },
+        {
+          "name": "y length",
+          "ioValue": 10
+        }
+      ]
+    },
+    {
+      "atomType": "Rectangle",
+      "x": 0.16666666666666666,
+      "y": 0.4341801385681293,
+      "uniqueID": "id-3791",
+      "ioValues": [
+        {
+          "name": "x length",
+          "ioValue": 10
+        },
+        {
+          "name": "y length",
+          "ioValue": 10
+        }
+      ]
+    },
+    {
+      "atomType": "Rectangle",
+      "x": 0.16774541531823084,
+      "y": 0.5635103926096998,
+      "uniqueID": "id-3795",
+      "ioValues": [
+        {
+          "name": "x length",
+          "ioValue": 10
+        },
+        {
+          "name": "y length",
+          "ioValue": 10
+        }
+      ]
+    }
+  ],
+  "allConnectors": [],
+  "unitsKey": "MM",
+  "fileTypeVersion": 1,
+  "filetypeVersion": 1
 }
