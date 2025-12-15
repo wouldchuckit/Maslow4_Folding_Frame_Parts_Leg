@@ -29,6 +29,10 @@
       "name": "LegAngle",
       "ioValue": 10,
       "currentEquation": "10"
+    },
+    {
+      "name": "Input",
+      "ioValue": 10
     }
   ],
   "topLevel": true,
@@ -182,9 +186,75 @@
           "ioValue": 10
         }
       ]
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.08845738942826321,
+      "y": 0.6651270207852193,
+      "uniqueID": "id-3820",
+      "name": "x *y",
+      "ioValues": [
+        {
+          "name": "x",
+          "ioValue": 19.5
+        },
+        {
+          "name": "y",
+          "ioValue": 2
+        }
+      ],
+      "currentEquation": "x *y"
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.08791801510248112,
+      "y": 0.7713625866050808,
+      "uniqueID": "id-3824",
+      "name": "x + y",
+      "ioValues": [
+        {
+          "name": "x",
+          "ioValue": 1
+        },
+        {
+          "name": "y",
+          "ioValue": 1
+        }
+      ],
+      "currentEquation": "x + y"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.01815,
+      "y": 0.6701062355658198,
+      "uniqueID": "id-3828",
+      "type": "number"
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.08845738942826321,
+      "y": 0.8799076212471131,
+      "uniqueID": "id-3831",
+      "name": "x + y",
+      "ioValues": [
+        {
+          "name": "x",
+          "ioValue": 1
+        },
+        {
+          "name": "y",
+          "ioValue": 1
+        }
+      ],
+      "currentEquation": "x + y"
     }
   ],
   "allConnectors": [
+    {
+      "ap2Name": "x",
+      "ap1ID": "id-3777",
+      "ap2ID": "id-3820"
+    },
     {
       "ap2Name": "y length",
       "ap1ID": "id-3782",
