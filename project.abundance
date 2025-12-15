@@ -15,15 +15,21 @@
     },
     {
       "name": "LegLength",
-      "ioValue": 300
+      "ioValue": 300,
+      "currentEquation": "300"
     },
     {
       "name": "LegWidth",
-      "ioValue": 10
+      "ioValue": 80
     },
     {
       "name": "BeamLength",
       "ioValue": 2438
+    },
+    {
+      "name": "LegAngle",
+      "ioValue": 10,
+      "currentEquation": "10"
     }
   ],
   "topLevel": true,
@@ -120,6 +126,14 @@
       "y": 0.3394919168591224,
       "uniqueID": "id-3802",
       "name": "BeamLength",
+      "type": "number"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.01815,
+      "y": 0.6041062355658198,
+      "uniqueID": "id-3805",
+      "name": "LegAngle",
       "type": "number"
     }
   ],
