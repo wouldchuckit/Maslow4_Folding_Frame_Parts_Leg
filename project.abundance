@@ -18,6 +18,10 @@
       "ioValue": 10
     },
     {
+      "name": "LegWidth",
+      "ioValue": 10
+    },
+    {
       "name": "BeamLength",
       "ioValue": 10
     }
@@ -109,6 +113,14 @@
           "ioValue": 10
         }
       ]
+    },
+    {
+      "atomType": "Input",
+      "x": 0.01815,
+      "y": 0.5381062355658198,
+      "uniqueID": "id-3799",
+      "name": "LegWidth",
+      "type": "number"
     }
   ],
   "allConnectors": [],
