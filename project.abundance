@@ -175,11 +175,11 @@
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 10
+          "ioValue": 160
         },
         {
           "name": "y length",
-          "ioValue": 10
+          "ioValue": 160
         }
       ]
     },
@@ -214,28 +214,30 @@
         },
         {
           "name": "y",
-          "ioValue": 1
+          "ioValue": 2
         }
       ],
       "currentEquation": "x * y"
     },
     {
-      "atomType": "Equation",
-      "x": 0.08845738942826321,
-      "y": 0.8799076212471131,
-      "uniqueID": "id-3831",
-      "name": "x + y",
+      "atomType": "Move",
+      "x": 0.29395900755124055,
+      "y": 0.25404157043879905,
+      "uniqueID": "id-3835",
       "ioValues": [
         {
-          "name": "x",
-          "ioValue": 1
+          "name": "xDist",
+          "ioValue": 0
         },
         {
-          "name": "y",
-          "ioValue": 1
+          "name": "yDist",
+          "ioValue": 0
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
         }
-      ],
-      "currentEquation": "x + y"
+      ]
     }
   ],
   "allConnectors": [
@@ -270,6 +272,11 @@
       "ap2ID": "id-3795"
     },
     {
+      "ap2Name": "geometry",
+      "ap1ID": "id-3787",
+      "ap2ID": "id-3835"
+    },
+    {
       "ap2Name": "y length",
       "ap1ID": "id-3799",
       "ap2ID": "id-3787"
@@ -298,6 +305,16 @@
       "ap2Name": "x length",
       "ap1ID": "id-3802",
       "ap2ID": "id-3812"
+    },
+    {
+      "ap2Name": "x length",
+      "ap1ID": "id-3824",
+      "ap2ID": "id-3816"
+    },
+    {
+      "ap2Name": "y length",
+      "ap1ID": "id-3824",
+      "ap2ID": "id-3816"
     }
   ],
   "unitsKey": "MM",
