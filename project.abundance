@@ -29,10 +29,6 @@
       "name": "LegAngle",
       "ioValue": 10,
       "currentEquation": "10"
-    },
-    {
-      "name": "Input",
-      "ioValue": 10
     }
   ],
   "topLevel": true,
@@ -173,8 +169,8 @@
     },
     {
       "atomType": "Rectangle",
-      "x": 0.2259978425026969,
-      "y": 0.8960739030023095,
+      "x": 0.22114347357065806,
+      "y": 0.9030023094688221,
       "uniqueID": "id-3816",
       "ioValues": [
         {
@@ -189,8 +185,8 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.08845738942826321,
-      "y": 0.6651270207852193,
+      "x": 0.08683926645091693,
+      "y": 0.651270207852194,
       "uniqueID": "id-3820",
       "name": "x *y",
       "ioValues": [
@@ -210,25 +206,18 @@
       "x": 0.08791801510248112,
       "y": 0.7713625866050808,
       "uniqueID": "id-3824",
-      "name": "x + y",
+      "name": "x * y",
       "ioValues": [
         {
           "name": "x",
-          "ioValue": 1
+          "ioValue": 80
         },
         {
           "name": "y",
           "ioValue": 1
         }
       ],
-      "currentEquation": "x + y"
-    },
-    {
-      "atomType": "Input",
-      "x": 0.01815,
-      "y": 0.6701062355658198,
-      "uniqueID": "id-3828",
-      "type": "number"
+      "currentEquation": "x * y"
     },
     {
       "atomType": "Equation",
@@ -294,6 +283,11 @@
       "ap2Name": "y length",
       "ap1ID": "id-3799",
       "ap2ID": "id-3795"
+    },
+    {
+      "ap2Name": "x",
+      "ap1ID": "id-3799",
+      "ap2ID": "id-3824"
     },
     {
       "ap2Name": "x length",
