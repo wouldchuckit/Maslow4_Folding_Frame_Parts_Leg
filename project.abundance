@@ -556,8 +556,8 @@
     },
     {
       "atomType": "Rotate",
-      "x": 0.4271844660194175,
-      "y": 0.5057736720554272,
+      "x": 0.40722761596548007,
+      "y": 0.6120092378752886,
       "uniqueID": "id-4032",
       "ioValues": [
         {
@@ -574,6 +574,51 @@
           "currentEquation": "90"
         }
       ]
+    },
+    {
+      "atomType": "Rotate",
+      "x": 0.4800431499460625,
+      "y": 0.6327944572748267,
+      "uniqueID": "id-4038",
+      "ioValues": [
+        {
+          "name": "x-axis degrees",
+          "ioValue": 0
+        },
+        {
+          "name": "y-axis degrees",
+          "ioValue": 0
+        },
+        {
+          "name": "z-axis degrees",
+          "ioValue": -10,
+          "currentEquation": "-10"
+        }
+      ]
+    },
+    {
+      "atomType": "Difference",
+      "x": 0.564185544768069,
+      "y": 0.3833718244803695,
+      "uniqueID": "id-4044"
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.5981661272923409,
+      "y": 0.7228637413394918,
+      "uniqueID": "id-4048",
+      "name": "x + y",
+      "ioValues": [
+        {
+          "name": "x",
+          "ioValue": 1
+        },
+        {
+          "name": "y",
+          "ioValue": 1
+        }
+      ],
+      "currentEquation": "x + y"
     }
   ],
   "allConnectors": [
@@ -818,6 +863,11 @@
       "ap2ID": "id-3967"
     },
     {
+      "ap2Name": "geometry2",
+      "ap1ID": "id-3967",
+      "ap2ID": "id-4044"
+    },
+    {
       "ap2Name": "Shape 1",
       "ap1ID": "id-3986",
       "ap2ID": "id-4010"
@@ -851,6 +901,16 @@
       "ap2Name": "geometry",
       "ap1ID": "id-4020",
       "ap2ID": "id-4032"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-4032",
+      "ap2ID": "id-4038"
+    },
+    {
+      "ap2Name": "geometry1",
+      "ap1ID": "id-4038",
+      "ap2ID": "id-4044"
     }
   ],
   "unitsKey": "MM",
