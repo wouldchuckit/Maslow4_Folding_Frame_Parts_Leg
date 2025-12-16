@@ -577,8 +577,8 @@
     },
     {
       "atomType": "Rotate",
-      "x": 0.4800431499460625,
-      "y": 0.6327944572748267,
+      "x": 0.5145631067961165,
+      "y": 0.6397228637413395,
       "uniqueID": "id-4038",
       "ioValues": [
         {
@@ -591,8 +591,7 @@
         },
         {
           "name": "z-axis degrees",
-          "ioValue": -10,
-          "currentEquation": "-10"
+          "ioValue": -10
         }
       ]
     },
@@ -604,21 +603,49 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.5981661272923409,
-      "y": 0.7228637413394918,
+      "x": 0.42826321467098166,
+      "y": 0.8637413394919169,
       "uniqueID": "id-4048",
-      "name": "x + y",
+      "name": ".5*x *sin(y)",
       "ioValues": [
         {
           "name": "x",
-          "ioValue": 1
+          "ioValue": 80
         },
         {
           "name": "y",
-          "ioValue": 1
+          "ioValue": 10
         }
       ],
-      "currentEquation": "x + y"
+      "currentEquation": ".5*x *sin(y)"
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.46763754045307443,
+      "y": 0.6812933025404158,
+      "uniqueID": "id-4052",
+      "name": "-x",
+      "ioValues": [
+        {
+          "name": "x",
+          "ioValue": 10
+        }
+      ],
+      "currentEquation": "-x"
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.6634304207119741,
+      "y": 0.7159353348729792,
+      "uniqueID": "id-4063",
+      "name": "sin(x)",
+      "ioValues": [
+        {
+          "name": "x",
+          "ioValue": 3.1415
+        }
+      ],
+      "currentEquation": "sin(x)"
     }
   ],
   "allConnectors": [
@@ -748,6 +775,11 @@
       "ap2ID": "id-3883"
     },
     {
+      "ap2Name": "x",
+      "ap1ID": "id-3799",
+      "ap2ID": "id-4048"
+    },
+    {
       "ap2Name": "x length",
       "ap1ID": "id-3802",
       "ap2ID": "id-3808"
@@ -756,6 +788,16 @@
       "ap2Name": "x length",
       "ap1ID": "id-3802",
       "ap2ID": "id-3812"
+    },
+    {
+      "ap2Name": "y",
+      "ap1ID": "id-3805",
+      "ap2ID": "id-4048"
+    },
+    {
+      "ap2Name": "x",
+      "ap1ID": "id-3805",
+      "ap2ID": "id-4052"
     },
     {
       "ap2Name": "geometry",
@@ -911,6 +953,11 @@
       "ap2Name": "geometry1",
       "ap1ID": "id-4038",
       "ap2ID": "id-4044"
+    },
+    {
+      "ap2Name": "z-axis degrees",
+      "ap1ID": "id-4052",
+      "ap2ID": "id-4038"
     }
   ],
   "unitsKey": "MM",
