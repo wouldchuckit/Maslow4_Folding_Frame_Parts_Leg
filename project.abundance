@@ -632,20 +632,6 @@
         }
       ],
       "currentEquation": "-x"
-    },
-    {
-      "atomType": "Equation",
-      "x": 0.6634304207119741,
-      "y": 0.7159353348729792,
-      "uniqueID": "id-4063",
-      "name": "sin(x)",
-      "ioValues": [
-        {
-          "name": "x",
-          "ioValue": 3.1415
-        }
-      ],
-      "currentEquation": "sin(x)"
     }
   ],
   "allConnectors": [
