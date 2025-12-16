@@ -27,8 +27,7 @@
     },
     {
       "name": "LegAngle",
-      "ioValue": 10,
-      "currentEquation": "10"
+      "ioValue": 10
     }
   ],
   "topLevel": true,
@@ -42,7 +41,7 @@
     {
       "atomType": "Input",
       "x": 0.01815,
-      "y": 0.26923325635103923,
+      "y": 0.10999999999999999,
       "uniqueID": "id-3777",
       "name": "WoodThick",
       "type": "number"
@@ -50,7 +49,7 @@
     {
       "atomType": "Input",
       "x": 0.01815,
-      "y": 0.40415704387990764,
+      "y": 0.176,
       "uniqueID": "id-3782",
       "name": "BeamHeight",
       "type": "number"
@@ -58,7 +57,7 @@
     {
       "atomType": "Input",
       "x": 0.01815,
-      "y": 0.46723325635103924,
+      "y": 0.242,
       "uniqueID": "id-3784",
       "name": "TopHeight",
       "type": "number"
@@ -114,7 +113,7 @@
     {
       "atomType": "Input",
       "x": 0.01815,
-      "y": 0.5381062355658198,
+      "y": 0.308,
       "uniqueID": "id-3799",
       "name": "LegWidth",
       "type": "number"
@@ -122,7 +121,7 @@
     {
       "atomType": "Input",
       "x": 0.01815,
-      "y": 0.3394919168591224,
+      "y": 0.374,
       "uniqueID": "id-3802",
       "name": "BeamLength",
       "type": "number"
@@ -130,7 +129,7 @@
     {
       "atomType": "Input",
       "x": 0.01815,
-      "y": 0.6041062355658198,
+      "y": 0.44,
       "uniqueID": "id-3805",
       "name": "LegAngle",
       "type": "number"
@@ -268,8 +267,7 @@
         },
         {
           "name": "y",
-          "ioValue": 3,
-          "currentEquation": "3"
+          "ioValue": 3
         }
       ],
       "currentEquation": "x *y"
@@ -386,8 +384,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.34304207119741104,
-      "y": 0.27251732101616627,
+      "x": 0.33225458468176916,
+      "y": 0.25404157043879905,
       "uniqueID": "id-3887",
       "ioValues": [
         {
@@ -396,11 +394,31 @@
         },
         {
           "name": "yDist",
-          "ioValue": 0
+          "ioValue": 101.5
         },
         {
           "name": "zDist",
           "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Assembly",
+      "x": 0.42071197411003236,
+      "y": 0.18244803695150116,
+      "uniqueID": "id-3967",
+      "ioValues": [
+        {
+          "name": "Shape 1",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 2",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 3",
+          "ioValue": null
         }
       ]
     }
@@ -572,14 +590,34 @@
       "ap2ID": "id-3865"
     },
     {
+      "ap2Name": "Shape 3",
+      "ap1ID": "id-3865",
+      "ap2ID": "id-3967"
+    },
+    {
+      "ap2Name": "Shape 2",
+      "ap1ID": "id-3869",
+      "ap2ID": "id-3967"
+    },
+    {
       "ap2Name": "yDist",
       "ap1ID": "id-3875",
       "ap2ID": "id-3869"
     },
     {
+      "ap2Name": "yDist",
+      "ap1ID": "id-3875",
+      "ap2ID": "id-3887"
+    },
+    {
       "ap2Name": "x length",
       "ap1ID": "id-3883",
       "ap2ID": "id-3791"
+    },
+    {
+      "ap2Name": "Shape 1",
+      "ap1ID": "id-3887",
+      "ap2ID": "id-3967"
     }
   ],
   "unitsKey": "MM",
