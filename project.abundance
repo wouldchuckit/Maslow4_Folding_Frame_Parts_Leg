@@ -606,18 +606,22 @@
       "x": 0.42826321467098166,
       "y": 0.8637413394919169,
       "uniqueID": "id-4048",
-      "name": ".5*x *sin(y)",
+      "name": ".5*x *sin((y* pi )/180)",
       "ioValues": [
         {
           "name": "x",
-          "ioValue": 80
+          "ioValue": 1
         },
         {
           "name": "y",
-          "ioValue": 10
+          "ioValue": 1
+        },
+        {
+          "name": "pi",
+          "ioValue": 1
         }
       ],
-      "currentEquation": ".5*x *sin(y)"
+      "currentEquation": ".5*x *sin((y* pi )/180)"
     },
     {
       "atomType": "Equation",
@@ -632,6 +636,21 @@
         }
       ],
       "currentEquation": "-x"
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.6871628910463862,
+      "y": 0.5519630484988453,
+      "uniqueID": "id-4069",
+      "name": "sin(x)",
+      "ioValues": [
+        {
+          "name": "x",
+          "ioValue": 1.5707963267948966,
+          "currentEquation": "1.5707963267948966"
+        }
+      ],
+      "currentEquation": "sin(x)"
     }
   ],
   "allConnectors": [
@@ -761,11 +780,6 @@
       "ap2ID": "id-3883"
     },
     {
-      "ap2Name": "x",
-      "ap1ID": "id-3799",
-      "ap2ID": "id-4048"
-    },
-    {
       "ap2Name": "x length",
       "ap1ID": "id-3802",
       "ap2ID": "id-3808"
@@ -774,11 +788,6 @@
       "ap2Name": "x length",
       "ap1ID": "id-3802",
       "ap2ID": "id-3812"
-    },
-    {
-      "ap2Name": "y",
-      "ap1ID": "id-3805",
-      "ap2ID": "id-4048"
     },
     {
       "ap2Name": "x",
