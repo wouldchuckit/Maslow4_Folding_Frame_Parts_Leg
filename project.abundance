@@ -521,7 +521,7 @@
       "x": 0.3268608414239482,
       "y": 0.6789838337182448,
       "uniqueID": "id-4016",
-      "name": "-(x - y)",
+      "name": "-(x - y +z)",
       "ioValues": [
         {
           "name": "x",
@@ -530,9 +530,13 @@
         {
           "name": "y",
           "ioValue": 203
+        },
+        {
+          "name": "z",
+          "ioValue": 1
         }
       ],
-      "currentEquation": "-(x - y)"
+      "currentEquation": "-(x - y +z)"
     },
     {
       "atomType": "Move",
@@ -542,7 +546,7 @@
       "ioValues": [
         {
           "name": "xDist",
-          "ioValue": -247
+          "ioValue": -248
         },
         {
           "name": "yDist",
@@ -625,8 +629,8 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.46763754045307443,
-      "y": 0.6812933025404158,
+      "x": 0.4471413160733549,
+      "y": 0.6928406466512702,
       "uniqueID": "id-4052",
       "name": "-x",
       "ioValues": [
