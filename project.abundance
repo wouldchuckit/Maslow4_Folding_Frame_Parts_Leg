@@ -533,7 +533,7 @@
         },
         {
           "name": "z",
-          "ioValue": 1
+          "ioValue": 6.945927106677213
         }
       ],
       "currentEquation": "-(x - y +z)"
@@ -546,7 +546,7 @@
       "ioValues": [
         {
           "name": "xDist",
-          "ioValue": -248
+          "ioValue": -253.9459271066772
         },
         {
           "name": "yDist",
@@ -962,6 +962,11 @@
       "ap2Name": "geometry1",
       "ap1ID": "id-4038",
       "ap2ID": "id-4044"
+    },
+    {
+      "ap2Name": "z",
+      "ap1ID": "id-4048",
+      "ap2ID": "id-4016"
     },
     {
       "ap2Name": "z-axis degrees",
