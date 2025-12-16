@@ -174,11 +174,11 @@
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 160
+          "ioValue": 240
         },
         {
           "name": "y length",
-          "ioValue": 160
+          "ioValue": 240
         }
       ]
     },
@@ -213,7 +213,7 @@
         },
         {
           "name": "y",
-          "ioValue": 2
+          "ioValue": 3
         }
       ],
       "currentEquation": "x * y"
@@ -518,8 +518,8 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.3268608414239482,
-      "y": 0.6789838337182448,
+      "x": 0.3414239482200647,
+      "y": 0.6212471131639723,
       "uniqueID": "id-4016",
       "name": "-(x - y +z)",
       "ioValues": [
@@ -533,7 +533,7 @@
         },
         {
           "name": "z",
-          "ioValue": 6.945927106677213
+          "ioValue": 13.891854213354426
         }
       ],
       "currentEquation": "-(x - y +z)"
@@ -546,7 +546,7 @@
       "ioValues": [
         {
           "name": "xDist",
-          "ioValue": -253.9459271066772
+          "ioValue": -260.8918542133544
         },
         {
           "name": "yDist",
@@ -609,7 +609,7 @@
       "x": 0.2961165048543689,
       "y": 0.7575057736720554,
       "uniqueID": "id-4048",
-      "name": ".5*x *sin((y* pi )/180)",
+      "name": "x *sin((y* pi )/180)",
       "ioValues": [
         {
           "name": "x",
@@ -624,7 +624,7 @@
           "ioValue": 3.141592653589793
         }
       ],
-      "currentEquation": ".5*x *sin((y* pi )/180)"
+      "currentEquation": "x *sin((y* pi )/180)"
     },
     {
       "atomType": "Equation",
@@ -645,7 +645,7 @@
       "x": 0.4029126213592233,
       "y": 0.7759815242494226,
       "uniqueID": "id-4069",
-      "name": "x +y -z",
+      "name": "-x +y -z",
       "ioValues": [
         {
           "name": "x",
@@ -657,10 +657,10 @@
         },
         {
           "name": "z",
-          "ioValue": 0
+          "ioValue": 450
         }
       ],
-      "currentEquation": "x +y -z"
+      "currentEquation": "-x +y -z"
     },
     {
       "atomType": "Move",
@@ -674,13 +674,19 @@
         },
         {
           "name": "yDist",
-          "ioValue": 283
+          "ioValue": -327
         },
         {
           "name": "zDist",
           "ioValue": 0
         }
       ]
+    },
+    {
+      "atomType": "Difference",
+      "x": 0.6305285868392664,
+      "y": 0.6212471131639723,
+      "uniqueID": "id-4214"
     }
   ],
   "allConnectors": [
@@ -773,6 +779,11 @@
       "ap2Name": "x",
       "ap1ID": "id-3784",
       "ap2ID": "id-4016"
+    },
+    {
+      "ap2Name": "z",
+      "ap1ID": "id-3784",
+      "ap2ID": "id-4069"
     },
     {
       "ap2Name": "geometry",
@@ -1005,6 +1016,11 @@
       "ap2ID": "id-4044"
     },
     {
+      "ap2Name": "geometry1",
+      "ap1ID": "id-4044",
+      "ap2ID": "id-4214"
+    },
+    {
       "ap2Name": "z",
       "ap1ID": "id-4048",
       "ap2ID": "id-4016"
@@ -1018,6 +1034,16 @@
       "ap2Name": "yDist",
       "ap1ID": "id-4069",
       "ap2ID": "id-4206"
+    },
+    {
+      "ap2Name": "geometry2",
+      "ap1ID": "id-4206",
+      "ap2ID": "id-4214"
+    },
+    {
+      "ap2Name": "number or geometry",
+      "ap1ID": "id-4214",
+      "ap2ID": "id-3772"
     }
   ],
   "unitsKey": "MM",
