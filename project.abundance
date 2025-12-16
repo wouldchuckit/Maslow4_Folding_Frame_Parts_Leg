@@ -610,15 +610,15 @@
       "ioValues": [
         {
           "name": "x",
-          "ioValue": 1
+          "ioValue": 80
         },
         {
           "name": "y",
-          "ioValue": 1
+          "ioValue": 10
         },
         {
           "name": "pi",
-          "ioValue": 1
+          "ioValue": 3.141592653589793
         }
       ],
       "currentEquation": ".5*x *sin((y* pi )/180)"
@@ -780,6 +780,11 @@
       "ap2ID": "id-3883"
     },
     {
+      "ap2Name": "x",
+      "ap1ID": "id-3799",
+      "ap2ID": "id-4048"
+    },
+    {
       "ap2Name": "x length",
       "ap1ID": "id-3802",
       "ap2ID": "id-3808"
@@ -793,6 +798,11 @@
       "ap2Name": "x",
       "ap1ID": "id-3805",
       "ap2ID": "id-4052"
+    },
+    {
+      "ap2Name": "y",
+      "ap1ID": "id-3805",
+      "ap2ID": "id-4048"
     },
     {
       "ap2Name": "geometry",
