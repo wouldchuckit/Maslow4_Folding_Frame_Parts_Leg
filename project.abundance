@@ -187,36 +187,28 @@
       "x": 0.08683926645091693,
       "y": 0.651270207852194,
       "uniqueID": "id-3820",
-      "name": "x *y",
+      "name": "x *2",
       "ioValues": [
         {
           "name": "x",
           "ioValue": 19.5
-        },
-        {
-          "name": "y",
-          "ioValue": 2
         }
       ],
-      "currentEquation": "x *y"
+      "currentEquation": "x *2"
     },
     {
       "atomType": "Equation",
       "x": 0.08791801510248112,
       "y": 0.7713625866050808,
       "uniqueID": "id-3824",
-      "name": "x * y",
+      "name": "x * 3",
       "ioValues": [
         {
           "name": "x",
           "ioValue": 80
-        },
-        {
-          "name": "y",
-          "ioValue": 3
         }
       ],
-      "currentEquation": "x * y"
+      "currentEquation": "x * 3"
     },
     {
       "atomType": "Extrude",
@@ -259,18 +251,14 @@
       "x": 0.08845738942826321,
       "y": 0.8799076212471131,
       "uniqueID": "id-3853",
-      "name": "x *y",
+      "name": "x *3",
       "ioValues": [
         {
           "name": "x",
           "ioValue": 19.5
-        },
-        {
-          "name": "y",
-          "ioValue": 3
         }
       ],
-      "currentEquation": "x *y"
+      "currentEquation": "x *3"
     },
     {
       "atomType": "Extrude",
@@ -333,36 +321,28 @@
       "x": 0.039913700107874865,
       "y": 0.7413394919168591,
       "uniqueID": "id-3875",
-      "name": "x * y",
+      "name": "x * .5",
       "ioValues": [
         {
           "name": "x",
           "ioValue": 203
-        },
-        {
-          "name": "y",
-          "ioValue": 0.5
         }
       ],
-      "currentEquation": "x * y"
+      "currentEquation": "x * .5"
     },
     {
       "atomType": "Equation",
       "x": 0.037756202804746494,
       "y": 0.8729792147806004,
       "uniqueID": "id-3879",
-      "name": "x *y",
+      "name": "x *.5",
       "ioValues": [
         {
           "name": "x",
           "ioValue": 450
-        },
-        {
-          "name": "y",
-          "ioValue": 0.5
         }
       ],
-      "currentEquation": "x *y"
+      "currentEquation": "x *.5"
     },
     {
       "atomType": "Equation",
@@ -443,18 +423,14 @@
       "x": 0.1930960086299892,
       "y": 0.9422632794457275,
       "uniqueID": "id-3992",
-      "name": "x * y",
+      "name": "x * .5",
       "ioValues": [
         {
           "name": "x",
           "ioValue": 530
-        },
-        {
-          "name": "y",
-          "ioValue": 0.5
         }
       ],
-      "currentEquation": "x * y"
+      "currentEquation": "x * .5"
     },
     {
       "atomType": "Move",
