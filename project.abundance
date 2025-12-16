@@ -404,8 +404,8 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.42071197411003236,
-      "y": 0.18244803695150116,
+      "x": 0.3872707659115426,
+      "y": 0.16628175519630484,
       "uniqueID": "id-3967",
       "ioValues": [
         {
@@ -413,33 +413,10 @@
           "ioValue": null
         },
         {
-          "name": "Shape 4",
-          "ioValue": null
-        },
-        {
-          "name": "Shape 5",
+          "name": "Shape 6",
           "ioValue": null
         }
       ]
-    },
-    {
-      "atomType": "Tag",
-      "x": 0.3743257820927724,
-      "y": 0.11316397228637413,
-      "uniqueID": "id-3977",
-      "name": "Beam",
-      "tags": [
-        "Beam"
-      ]
-    },
-    {
-      "atomType": "ExtractTag",
-      "x": 0.5226537216828478,
-      "y": 0.2909930715935335,
-      "uniqueID": "id-3982",
-      "name": "Extract Tag",
-      "tag": "Beam",
-      "tagIndex": 0
     }
   ],
   "allConnectors": [
@@ -609,14 +586,9 @@
       "ap2ID": "id-3865"
     },
     {
-      "ap2Name": "Shape 5",
-      "ap1ID": "id-3865",
-      "ap2ID": "id-3967"
-    },
-    {
-      "ap2Name": "geometry",
+      "ap2Name": "Shape 6",
       "ap1ID": "id-3869",
-      "ap2ID": "id-3977"
+      "ap2ID": "id-3967"
     },
     {
       "ap2Name": "yDist",
@@ -636,16 +608,6 @@
     {
       "ap2Name": "Shape 1",
       "ap1ID": "id-3887",
-      "ap2ID": "id-3967"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-3967",
-      "ap2ID": "id-3982"
-    },
-    {
-      "ap2Name": "Shape 4",
-      "ap1ID": "id-3977",
       "ap2ID": "id-3967"
     }
   ],
