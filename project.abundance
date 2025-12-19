@@ -174,7 +174,7 @@
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 240
+          "ioValue": 2438
         },
         {
           "name": "y length",
@@ -576,8 +576,8 @@
     },
     {
       "atomType": "Difference",
-      "x": 0.5690399137001079,
-      "y": 0.5242494226327945,
+      "x": 0.5658036677454154,
+      "y": 0.5219399538106235,
       "uniqueID": "id-4044"
     },
     {
@@ -668,27 +668,13 @@
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 320
+          "ioValue": 2438
         },
         {
           "name": "y length",
           "ioValue": 320
         }
       ]
-    },
-    {
-      "atomType": "Equation",
-      "x": 0.6893203883495145,
-      "y": 0.13856812933025403,
-      "uniqueID": "id-4358",
-      "name": "4*x",
-      "ioValues": [
-        {
-          "name": "x",
-          "ioValue": 80
-        }
-      ],
-      "currentEquation": "4*x"
     },
     {
       "atomType": "Equation",
@@ -932,11 +918,6 @@
       "ap2ID": "id-4069"
     },
     {
-      "ap2Name": "x",
-      "ap1ID": "id-3799",
-      "ap2ID": "id-4358"
-    },
-    {
       "ap2Name": "y",
       "ap1ID": "id-3799",
       "ap2ID": "id-4362"
@@ -955,6 +936,16 @@
       "ap2Name": "x length",
       "ap1ID": "id-3802",
       "ap2ID": "id-3812"
+    },
+    {
+      "ap2Name": "x length",
+      "ap1ID": "id-3802",
+      "ap2ID": "id-3816"
+    },
+    {
+      "ap2Name": "x length",
+      "ap1ID": "id-3802",
+      "ap2ID": "id-4354"
     },
     {
       "ap2Name": "x",
@@ -990,11 +981,6 @@
       "ap2Name": "zDist",
       "ap1ID": "id-3820",
       "ap2ID": "id-4002"
-    },
-    {
-      "ap2Name": "x length",
-      "ap1ID": "id-3824",
-      "ap2ID": "id-3816"
     },
     {
       "ap2Name": "y length",
@@ -1160,11 +1146,6 @@
       "ap2Name": "geometry",
       "ap1ID": "id-4354",
       "ap2ID": "id-4366"
-    },
-    {
-      "ap2Name": "x length",
-      "ap1ID": "id-4358",
-      "ap2ID": "id-4354"
     },
     {
       "ap2Name": "y length",
