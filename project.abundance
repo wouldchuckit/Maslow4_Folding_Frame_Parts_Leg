@@ -594,10 +594,6 @@
         {
           "name": "y",
           "ioValue": 10
-        },
-        {
-          "name": "pi",
-          "ioValue": 3.141592653589793
         }
       ],
       "currentEquation": "x *sin((y* pi )/180)"
@@ -663,6 +659,83 @@
       "x": 0.6305285868392664,
       "y": 0.6212471131639723,
       "uniqueID": "id-4214"
+    },
+    {
+      "atomType": "Rectangle",
+      "x": 0.6758360302049622,
+      "y": 0.15242494226327943,
+      "uniqueID": "id-4354",
+      "ioValues": [
+        {
+          "name": "x length",
+          "ioValue": 320
+        },
+        {
+          "name": "y length",
+          "ioValue": 160
+        }
+      ]
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.5992448759439051,
+      "y": 0.12702078521939952,
+      "uniqueID": "id-4358",
+      "name": "4*x",
+      "ioValues": [
+        {
+          "name": "x",
+          "ioValue": 80
+        }
+      ],
+      "currentEquation": "4*x"
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.6024811218985976,
+      "y": 0.22401847575057737,
+      "uniqueID": "id-4362",
+      "name": "2*y",
+      "ioValues": [
+        {
+          "name": "y",
+          "ioValue": 80
+        }
+      ],
+      "currentEquation": "2*y"
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.7588996763754046,
+      "y": 0.19168591224018475,
+      "uniqueID": "id-4366",
+      "ioValues": [
+        {
+          "name": "height",
+          "ioValue": 58.5
+        }
+      ]
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.6769147788565264,
+      "y": 0.27251732101616627,
+      "uniqueID": "id-4370",
+      "name": "3*z",
+      "ioValues": [
+        {
+          "name": "z",
+          "ioValue": 19.5
+        }
+      ],
+      "currentEquation": "3*z"
+    },
+    {
+      "atomType": "Color",
+      "x": 0.8203883495145631,
+      "y": 0.20092378752886836,
+      "uniqueID": "id-4375",
+      "selectedColor": "Default"
     }
   ],
   "allConnectors": [
@@ -705,6 +778,11 @@
       "ap2Name": "zDist",
       "ap1ID": "id-3777",
       "ap2ID": "id-3996"
+    },
+    {
+      "ap2Name": "z",
+      "ap1ID": "id-3777",
+      "ap2ID": "id-4370"
     },
     {
       "ap2Name": "y length",
@@ -810,6 +888,16 @@
       "ap2Name": "x",
       "ap1ID": "id-3799",
       "ap2ID": "id-4069"
+    },
+    {
+      "ap2Name": "x",
+      "ap1ID": "id-3799",
+      "ap2ID": "id-4358"
+    },
+    {
+      "ap2Name": "y",
+      "ap1ID": "id-3799",
+      "ap2ID": "id-4362"
     },
     {
       "ap2Name": "x length",
@@ -1020,6 +1108,31 @@
       "ap2Name": "number or geometry",
       "ap1ID": "id-4214",
       "ap2ID": "id-3772"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-4354",
+      "ap2ID": "id-4366"
+    },
+    {
+      "ap2Name": "x length",
+      "ap1ID": "id-4358",
+      "ap2ID": "id-4354"
+    },
+    {
+      "ap2Name": "y length",
+      "ap1ID": "id-4362",
+      "ap2ID": "id-4354"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-4366",
+      "ap2ID": "id-4375"
+    },
+    {
+      "ap2Name": "height",
+      "ap1ID": "id-4370",
+      "ap2ID": "id-4366"
     }
   ],
   "unitsKey": "MM",
