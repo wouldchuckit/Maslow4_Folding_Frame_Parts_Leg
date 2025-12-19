@@ -15,7 +15,8 @@
     },
     {
       "name": "TopHeight",
-      "ioValue": 450
+      "ioValue": 450,
+      "currentEquation": "450"
     },
     {
       "name": "LegWidth",
@@ -27,7 +28,8 @@
     },
     {
       "name": "LegAngle",
-      "ioValue": 10
+      "ioValue": 10,
+      "currentEquation": "10"
     }
   ],
   "topLevel": true,
