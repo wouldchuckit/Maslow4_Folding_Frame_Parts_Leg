@@ -672,7 +672,7 @@
         },
         {
           "name": "y length",
-          "ioValue": 400
+          "ioValue": 320
         }
       ]
     },
@@ -695,14 +695,14 @@
       "x": 0.6877022653721683,
       "y": 0.2517321016166282,
       "uniqueID": "id-4362",
-      "name": "5*y",
+      "name": "4*y",
       "ioValues": [
         {
           "name": "y",
           "ioValue": 80
         }
       ],
-      "currentEquation": "5*y"
+      "currentEquation": "4*y"
     },
     {
       "atomType": "Extrude",
@@ -742,7 +742,7 @@
         },
         {
           "name": "yDist",
-          "ioValue": 283
+          "ioValue": 363
         },
         {
           "name": "zDist",
@@ -755,7 +755,7 @@
       "x": 0.8149946062567421,
       "y": 0.29330254041570436,
       "uniqueID": "id-4384",
-      "name": "x + y",
+      "name": "x + 2*y",
       "ioValues": [
         {
           "name": "x",
@@ -766,12 +766,12 @@
           "ioValue": 80
         }
       ],
-      "currentEquation": "x + y"
+      "currentEquation": "x + 2*y"
     },
     {
       "atomType": "Difference",
-      "x": 0.7367853290183388,
-      "y": 0.5519630484988453,
+      "x": 0.8743257820927725,
+      "y": 0.4942263279445727,
       "uniqueID": "id-4388"
     }
   ],
