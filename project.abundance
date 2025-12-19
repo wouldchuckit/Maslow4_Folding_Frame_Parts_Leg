@@ -86,7 +86,7 @@
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 530
+          "ioValue": 690
         },
         {
           "name": "y length",
@@ -349,7 +349,7 @@
       "x": 0.1343042071197411,
       "y": 0.930715935334873,
       "uniqueID": "id-3883",
-      "name": "x +  y",
+      "name": "x +  3*y",
       "ioValues": [
         {
           "name": "x",
@@ -360,7 +360,7 @@
           "ioValue": 80
         }
       ],
-      "currentEquation": "x +  y"
+      "currentEquation": "x +  3*y"
     },
     {
       "atomType": "Move",
@@ -427,7 +427,7 @@
       "ioValues": [
         {
           "name": "x",
-          "ioValue": 530
+          "ioValue": 690
         }
       ],
       "currentEquation": "x * .5"
@@ -440,7 +440,7 @@
       "ioValues": [
         {
           "name": "xDist",
-          "ioValue": 265
+          "ioValue": 345
         },
         {
           "name": "yDist",
@@ -672,7 +672,7 @@
         },
         {
           "name": "y length",
-          "ioValue": 160
+          "ioValue": 400
         }
       ]
     },
@@ -692,17 +692,17 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.692017259978425,
-      "y": 0.24711316397228636,
+      "x": 0.6877022653721683,
+      "y": 0.2517321016166282,
       "uniqueID": "id-4362",
-      "name": "2*y",
+      "name": "5*y",
       "ioValues": [
         {
           "name": "y",
           "ioValue": 80
         }
       ],
-      "currentEquation": "2*y"
+      "currentEquation": "5*y"
     },
     {
       "atomType": "Extrude",
