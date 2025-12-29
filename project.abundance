@@ -872,8 +872,8 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.5275080906148868,
-      "y": 0.4549653579676674,
+      "x": 0.5409924487594391,
+      "y": 0.4919168591224019,
       "uniqueID": "id-4582",
       "ioValues": [
         {
@@ -898,6 +898,31 @@
       "name": "DrillHoles",
       "tags": [
         "DrillHoles"
+      ]
+    },
+    {
+      "atomType": "ExtractTag",
+      "x": 0.8160733549083063,
+      "y": 0.6466512702078522,
+      "uniqueID": "id-4777",
+      "name": "Extract Tag",
+      "tag": "DrillHoles",
+      "tagIndex": 0
+    },
+    {
+      "atomType": "Assembly",
+      "x": 0.9261057173678532,
+      "y": 0.6420323325635103,
+      "uniqueID": "id-4780",
+      "ioValues": [
+        {
+          "name": "Shape 1",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 2",
+          "ioValue": null
+        }
       ]
     }
   ],
@@ -1263,6 +1288,11 @@
       "ap2ID": "id-4044"
     },
     {
+      "ap2Name": "geometry",
+      "ap1ID": "id-4038",
+      "ap2ID": "id-4777"
+    },
+    {
       "ap2Name": "geometry1",
       "ap1ID": "id-4044",
       "ap2ID": "id-4214"
@@ -1323,9 +1353,9 @@
       "ap2ID": "id-4378"
     },
     {
-      "ap2Name": "number or geometry",
+      "ap2Name": "Shape 1",
       "ap1ID": "id-4388",
-      "ap2ID": "id-3772"
+      "ap2ID": "id-4780"
     },
     {
       "ap2Name": "diameter",
@@ -1386,6 +1416,16 @@
       "ap2Name": "geometry",
       "ap1ID": "id-4774",
       "ap2ID": "id-4559"
+    },
+    {
+      "ap2Name": "Shape 2",
+      "ap1ID": "id-4777",
+      "ap2ID": "id-4780"
+    },
+    {
+      "ap2Name": "number or geometry",
+      "ap1ID": "id-4780",
+      "ap2ID": "id-3772"
     }
   ],
   "unitsKey": "MM",
