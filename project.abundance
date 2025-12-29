@@ -31,8 +31,7 @@
     },
     {
       "name": "Bolt2Diameter",
-      "ioValue": 6.4,
-      "currentEquation": "6.4"
+      "ioValue": 6.4
     }
   ],
   "topLevel": true,
@@ -774,8 +773,8 @@
     },
     {
       "atomType": "Circle",
-      "x": 0.5474649406688241,
-      "y": 0.8845265588914549,
+      "x": 0.5086299892125136,
+      "y": 0.8868360277136258,
       "uniqueID": "id-4552",
       "ioValues": [
         {
@@ -786,7 +785,7 @@
     },
     {
       "atomType": "Extrude",
-      "x": 0.5960086299892124,
+      "x": 0.5480043149946062,
       "y": 0.8845265588914549,
       "uniqueID": "id-4555",
       "ioValues": [
@@ -873,8 +872,8 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.5334412081984897,
-      "y": 0.4849884526558892,
+      "x": 0.5275080906148868,
+      "y": 0.4549653579676674,
       "uniqueID": "id-4582",
       "ioValues": [
         {
@@ -889,6 +888,16 @@
           "name": "Shape 3",
           "ioValue": null
         }
+      ]
+    },
+    {
+      "atomType": "Tag",
+      "x": 0.5922330097087378,
+      "y": 0.8914549653579676,
+      "uniqueID": "id-4774",
+      "name": "DrillHoles",
+      "tags": [
+        "DrillHoles"
       ]
     }
   ],
@@ -1331,7 +1340,7 @@
     {
       "ap2Name": "geometry",
       "ap1ID": "id-4555",
-      "ap2ID": "id-4559"
+      "ap2ID": "id-4774"
     },
     {
       "ap2Name": "geometry",
@@ -1372,6 +1381,11 @@
       "ap2Name": "geometry",
       "ap1ID": "id-4582",
       "ap2ID": "id-4038"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-4774",
+      "ap2ID": "id-4559"
     }
   ],
   "unitsKey": "MM",
