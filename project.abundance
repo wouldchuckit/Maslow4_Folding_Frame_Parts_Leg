@@ -28,6 +28,11 @@
     {
       "name": "LegAngle",
       "ioValue": 10
+    },
+    {
+      "name": "Bolt2Diameter",
+      "ioValue": 6.4,
+      "currentEquation": "6.4"
     }
   ],
   "topLevel": true,
@@ -536,8 +541,8 @@
     },
     {
       "atomType": "Rotate",
-      "x": 0.40722761596548007,
-      "y": 0.6120092378752886,
+      "x": 0.4519956850053938,
+      "y": 0.4965357967667437,
       "uniqueID": "id-4032",
       "ioValues": [
         {
@@ -759,6 +764,84 @@
       "x": 0.8743257820927725,
       "y": 0.4942263279445727,
       "uniqueID": "id-4388"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.01815,
+      "y": 0.506,
+      "uniqueID": "id-4549",
+      "name": "Bolt2Diameter"
+    },
+    {
+      "atomType": "Circle",
+      "x": 0.6321467098166127,
+      "y": 0.8752886836027713,
+      "uniqueID": "id-4552",
+      "ioValues": [
+        {
+          "name": "diameter",
+          "ioValue": 6.4
+        }
+      ]
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.6785329018338727,
+      "y": 0.8683602771362586,
+      "uniqueID": "id-4555",
+      "ioValues": [
+        {
+          "name": "height",
+          "ioValue": 58.5
+        }
+      ]
+    },
+    {
+      "atomType": "Color",
+      "x": 0.732470334412082,
+      "y": 0.8660508083140878,
+      "uniqueID": "id-4559",
+      "selectedColor": "Keep Out"
+    },
+    {
+      "atomType": "Move",
+      "x": 0.7923408845738942,
+      "y": 0.9122401847575057,
+      "uniqueID": "id-4562",
+      "ioValues": [
+        {
+          "name": "xDist",
+          "ioValue": 0
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.7923408845738942,
+      "y": 0.7782909930715934,
+      "uniqueID": "id-4568",
+      "ioValues": [
+        {
+          "name": "xDist",
+          "ioValue": 0
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
     }
   ],
   "allConnectors": [
@@ -1008,6 +1091,11 @@
       "ap2ID": "id-3865"
     },
     {
+      "ap2Name": "height",
+      "ap1ID": "id-3853",
+      "ap2ID": "id-4555"
+    },
+    {
       "ap2Name": "geometry",
       "ap1ID": "id-3857",
       "ap2ID": "id-3996"
@@ -1176,6 +1264,31 @@
       "ap2Name": "number or geometry",
       "ap1ID": "id-4388",
       "ap2ID": "id-3772"
+    },
+    {
+      "ap2Name": "diameter",
+      "ap1ID": "id-4549",
+      "ap2ID": "id-4552"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-4552",
+      "ap2ID": "id-4555"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-4555",
+      "ap2ID": "id-4559"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-4559",
+      "ap2ID": "id-4562"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-4559",
+      "ap2ID": "id-4568"
     }
   ],
   "unitsKey": "MM",
